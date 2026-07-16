@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "movie_food_add_on:popcorn_bucket"
+    },
+    "title": {
+      "translate": "advancements.mmmmm_tasty.title"
+    },
+    "description": {
+      "translate": "advancements.mmmmm_tasty.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mmmmm_tasty_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "movie_food_add_on:popcorn_bucket"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "minecraft:adventure/root"
+}

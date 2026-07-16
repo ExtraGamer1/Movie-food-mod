@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "movie_food_add_on:nachos"
+    },
+    "title": {
+      "translate": "advancements.nachosadvancement.title"
+    },
+    "description": {
+      "translate": "advancements.nachosadvancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "nachosadvancement_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "movie_food_add_on:nachos"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "movie_food_add_on:mmmmm_tasty"
+}

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "movie_food_add_on:hotdog"
+    },
+    "title": {
+      "translate": "advancements.hotdogadvancement.title"
+    },
+    "description": {
+      "translate": "advancements.hotdogadvancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hotdogadvancement_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "movie_food_add_on:hotdog"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "movie_food_add_on:mmmmm_tasty"
+}
